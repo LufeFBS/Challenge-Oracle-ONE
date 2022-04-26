@@ -1,0 +1,16 @@
+.caixa {
+	width: 940px;
+	position: relative;
+}
+nav {
+	position:  absolute;
+	top: 500px;
+	right: 0;
+	left: 5px;
+	
+}
+
+nav button {
+	display: inline;
+
+}
