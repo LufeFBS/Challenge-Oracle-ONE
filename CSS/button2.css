@@ -1,0 +1,48 @@
+
+
+.button2{
+
+	/* Button */
+	
+	flex-direction: row;
+	justify-content: space-evenly;
+
+	position: static;
+	width: 228px;
+	height:37px;
+	left:0px;
+	top:0px;
+	padding: 24px;
+
+	background: #D8DFE8
+	border:  1px solid #0A3871;
+	box-sizing: border-box;
+	border-radius: 24px;
+
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+	margin: 20px 24px;
+}
+
+.descriptografar {
+	position: static;
+	width: 180px;
+	height: 19px;
+	left: 0px;
+	top: 0px;
+
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	text-align: center;
+
+	color: #0A3871;
+
+	flex:  none;
+	order: 0;
+	flex-grow: 1;
+	margin: 0px 0px;
+}

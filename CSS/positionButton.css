@@ -1,0 +1,11 @@
+.caixa {
+	width: 940px;
+
+	position: absolute;
+	top: 500px;
+	right: 0;
+	left: 5px;
+	
+	display: inline;
+
+}

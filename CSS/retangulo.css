@@ -1,0 +1,68 @@
+aside {
+	/* Retangulo*/
+	position: absolute;
+	width: 270px;
+	height: 600px;
+	left: 670px;
+	top: 20px;
+
+	/* Cor de fundo*/
+	background: #FFFFFF;
+
+	/* Sombra */
+	box-shadow:  0px 24px 32px -8px rgba(0, 0, 0, 00);
+	border-radius: 20px;
+}
+
+.nenhumamsg {
+	position: static;
+	width: 236px;
+	height: 58px;
+	left: 0px;
+	top: 0px;
+	letter-spacing: -1px;
+
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 200;
+	font-size: 24px;
+	line-height: 0;
+	text-align: center;
+
+	color: #343A40;
+
+	flex: none;
+	order: 0;
+	align-self: stretch;
+	flex-grow: 0;
+	margin: 15px;
+}
+
+.txtEncontra {
+	margin: 20px;
+}
+
+/* Digite um texto que você deseja criptografar ou descriptografar. */
+.msgCripto-Descripto {
+	position: static;
+	width: 236px;
+	height:58px;
+	left: 0px;
+	top: 80px;
+
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 150%;
+	
+	text-align:center;
+
+	color: #495057;
+
+	flex: none;
+	order: 1;
+	align-self: stretch;
+	flex-grow: 0;
+	margin: 0px 15px;
+}
