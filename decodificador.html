@@ -3,12 +3,13 @@
 	<html lang="pt-br" width="100%" heigth="100%">
 	<head>
 		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title> Decodificador de Texto</title>
 
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/button1.css">
 		<link rel="stylesheet" href="css/button2.css">
-		<link rel="stylesheet" href=css/textos.css>
+		<link rel="stylesheet" href=css/main.css>
 		<link rel="stylesheet" href="css/positionButton.css">
 		<link rel="stylesheet" href="css/retangulo.css">
 
@@ -17,19 +18,20 @@
 
 	<body class= "desktop">
 
+		
 		<header>
 			<div>
 				<form>	
-
-					<textarea id ="Input" rows="0" cols="50" name="texto" class="caixa-texto" maxlength="300" minlength="20" required placeholder="Digite seu texto " ></textarea>
+                    
+					<textarea id ="Input" rows="0" cols="50" name="texto"  class="caixa-texto" maxlength="300" minlength="20" required placeholder="Digite seu texto " value="'Reset" onclick="clearText()" ></textarea>
 
 				</form>
 			</div>
 		</header>
 
-		<main>
+		<main class= "caixa">
 
- 			<div class= "caixa">
+ 			<div >
 				<div>
 					<img class="icone" src="Vector.png">
 					<h3 class="msg"> Apenas letras minúsculas e sem acento.</h3>
@@ -38,32 +40,39 @@
 					<p class= "criptografar"> Criptografar </p>
 				</button>
 	
-				<button class= "button2" type="button" >
+				<button  id="btdescriptografar" class= "button2" type="button" onclick="descripto ()" >
 					<p class= "descriptografar"> Descriptografar </p>
 				</button>
 			</div>
 		</main>
 
-		 <aside class="retangulo">
-		 	<div>
-				<img class="imagem"src="1.png">
-					<div class="nenhumamsg">
-						<p>Nenhuma mensagem</p>
-						<p class="txtEncontra"> encontrada </p>
-					</div>
-				<p class= "msgCripto-Descripto"> Digite um texto que você deseja criptografar ou descriptografar.</p>
+		 <aside >
+		 	<div  class="retangulo">
+				 <input id="criptosaida"  readonly onclick="Copiar ()" > </input>
+				<button id="btcopiar" class="copiar" onclick= "Copiar ()" >
+					<p class="txtcopiar">Copia</p>
+				</button>
+				
 			</div>
 		</aside>
 		
 
 		
-			<footer> 
+			<footer class="fcaixa"> 
 				<div class="creditos">
-					<p > Desenvolvido por: Luiz Fernando Lima Machado </p>
+					<div class="icones">
+					<ul>
+					<li><a href="https://github.com/LufeFBS" ><i class="fa-brands fa-github"></i></a></li>
+					<li><a href="https://www.linkedin.com/in/luiz-fernando-lima-machado-197b0a195/"><i class="fa-brands fa-linkedin"></i></a></li>
+				    </ul>
+				  	</div>
+					<p>Desenvolvido por: Luiz Fernando Lima Machado</p>
 				</div>
 			</footer>
+		
 
 		<script src="JS/Interacao.js"> </script>
+		<script src="https://kit.fontawesome.com/cbab58434a.js" crossorigin="anonymous"></script>
  		
 
 	</body>

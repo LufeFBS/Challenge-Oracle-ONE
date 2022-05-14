@@ -1,0 +1,353 @@
+.desktop{
+	position: absolute;
+	width: auto;
+	height: auto;
+	background: #F3F5FC;
+}
+
+.Digite-o-texto {
+	position: relative;
+	width: 680px;
+	height: 48px;
+	left: 100px;
+	top: 20px;
+	
+
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400px;
+	font-size: 32px;
+	line-height: 150%;
+
+	color: #0A3871;
+}
+
+.caixa-texto {
+	
+	position: relative;
+	top: 120px;
+	width: 850px;
+	height:350px;
+	left: 30px;
+
+
+
+	color: #525252;
+	padding: 6px 9px;
+	border: none;
+	background-color:#F3F5FC ;
+	display: block;
+
+	 
+	box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0; 
+	resize:none;
+
+    font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 150%;
+	color: #0A3871;
+
+
+}
+
+
+.creditos{
+	position: static;
+	margin: 20px 220px 20px;
+	white-space: nowrap;
+}
+
+.creditos li{
+	position: static;
+    float: left;
+	margin: 0px 10px 0px 0px;
+
+}
+
+.icones{
+	color:blue;
+}
+
+.fcaixa {
+	position: absolute;
+	width: 800px;
+	height: 40px;
+	top: 600px;
+
+}
+
+.msg {
+	position: static;
+	width: 228px;
+	height: 18px;
+	left: 24px;
+	top: 0px;
+
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 150%;
+
+	color: #495057;
+	opacity: 0.8;
+
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+	margin: 0px 0px 0px 70px;
+}
+
+.icone {
+	margin-left: 50px;
+	margin-top: 0px;
+	position: absolute;
+	left: 0%;
+	right: 0%;
+	top: 0%;
+	bottom: 0%;
+
+}
+
+#criptosaida {
+	position: absolute;
+	top: 30px;
+	width: 380px;
+	height:400px;
+	right: 0px;
+
+
+
+	color: white;
+	padding: 6px 9px;
+	border: none;	
+	display: block;
+
+	 
+	box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0; 
+	resize: none;
+
+    font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 150%;
+	color: #0A3871;
+}
+
+/* BOTÃO COPIAR */
+.copiar {
+	flex-direction:  row;
+	align-items: flex-start;
+	padding:24px;
+
+	position: static;
+	width: 228px;
+	height:37px;
+	left: 0px;
+	top: 0px;
+
+	background:#0A3871;
+	border-radius: 24px;
+
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	margin: 515px 0px 0px 80px;
+}
+
+
+.txtcopiar {
+	position: static;
+	width: 180px;
+	height: 19px;
+	left: 0px;
+	top: 0px;
+
+	font-family:  "Inter";
+	font-style:  normal;
+	font-weight:  400;
+	font-size: 16px;
+	line-height: 19px;
+	text-align:center;
+
+	color: #FFFFFF;
+
+	flex: none;
+	order: 0;
+	flex-grow: 1;
+	margin:  0px 0px;
+
+
+
+}
+
+
+/* LAYOUT CELULAR */
+@media screen and (max-width: 420px) {
+	.desktop {
+   width: 100%;
+   height: 100%;
+   display: block;
+}
+main.caixa{
+	height: 200px;
+	top:200px;
+	
+}
+
+
+.icone, .msg{
+   align-items: center;
+	justify-content: center;
+}
+
+.icone {
+   margin-left: 35px;
+   width:15px;
+}
+
+.msg{
+	width: 228px;
+	height: 18px;
+	
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 150%;
+
+}
+
+.button1{
+	width: 35vh;
+	height: 5vh;
+}
+
+.button2{
+	width: 35vh;
+	height: 5vh;
+}
+
+.button1, .button2 { 
+	margin:15px 70px;
+	display: block;
+}
+
+div.retangulo{
+
+	width:100%;
+	height:183px;
+	left: 0px;
+   	top: 370px;
+	 background: #FFFFFF;
+	box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+	border-radius: 32px;
+   
+}
+
+.copiar{
+	width: 35vh;
+	height: 2vh;
+	margin: 130px 0px 0px 80px ;
+	text-align:center;
+}
+
+.caixa-texto{
+	width: 360px;
+	height: 200px;
+	top: 0px;
+	left: 0px;
+
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 150%;
+}
+
+#criptosaida{
+   
+	width:90%;
+	height:100px;
+	left: 5px;
+	top: 15px;
+
+}
+
+footer.caixa{
+	width:100%;
+
+}
+.fcaixa{
+	position:relative;
+	top:327px;
+	right: 210px;
+}
+.creditos{
+	font-family: 'Inter';
+	font-style: normal;
+	font-size: 15px;
+}
+
+}
+
+/* LAYOUT TABLET */
+@media screen and (min-width: 430px)  and (max-width: 768px){
+	.desktop {
+   width: 100%;
+   display: block;
+}
+
+div.retangulo{
+
+	width:100%;
+	height:250px;
+	left: 0px;
+   	top: 320px;
+	 background: #FFFFFF;
+	box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+	border-radius: 32px;
+
+
+}
+
+main.caixa{
+	top:220px;
+}
+
+header{
+	height:200px;
+}
+.caixa-texto{
+	width: 768px;
+	height: 200px;
+	left: 0px;
+	top: 0px;
+}
+
+#criptosaida{
+	width:740px;
+	height: 150px;
+    left:5px;
+	top:20px;
+}
+
+.copiar{
+	margin: 200px 0px 0px 250px ;
+	text-align:center;
+	left: 50px;
+
+}
+
+.fcaixa{
+	top:570px;
+	right: 10px;
+}
+}
